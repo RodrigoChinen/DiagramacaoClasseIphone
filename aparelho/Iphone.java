@@ -8,43 +8,43 @@ public class Iphone implements AparelhoTelefonicoInterface , ReprodutorMusicalIn
 
     @Override
     public void ligar() {
-        System.out.println("Realizando chamada");
+        System.out.println("Efetuando Ligação");
     }
 
     @Override
     public void atender() {
-        System.out.println("Atendendo chamada");
+        System.out.println("Atendendo Ligação");
     }
 
     @Override
     public void iniciarCorrerioVoz() {
-        System.out.println("Iniciando correio de voz");
+        System.out.println("Acessar Correio de Voz");
     }
 
     public void tocar() {
-        System.out.println("Tocando musica");
+        System.out.println("Reproduzindo Música");
     }
 
 
     public void pausar() {
-        System.out.println("Pausando musica");
+        System.out.println("Música Pausada");
     }
 
     public void selecionarMusica() {
-        System.out.println("Selecionando musica");
+        System.out.println("Selecione Música");
     }
     @Override
     public void exibirPagina() {
-        System.out.println("Exibindo Pagina");
+        System.out.println("Exibindo Página");
     }
 
     @Override
     public void adicionarNovaAba() {
-        System.out.println("Adicionando Aba");
+        System.out.println("Nova Aba");
     }
 
     @Override
     public void atualizarPagina() {
-        System.out.println("Atualizar Página");
+        System.out.println("Atualizar a Página");
     }
 }
